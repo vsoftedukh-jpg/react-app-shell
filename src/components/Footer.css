@@ -1,0 +1,26 @@
+.footer {
+  min-height: var(--footer-height);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 18px;
+}
+
+.footer__links a {
+  color: var(--color-text-muted);
+}
+
+.footer__links a:hover {
+  color: var(--color-text);
+}
